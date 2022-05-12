@@ -6,7 +6,7 @@ tello.connect
 print(tello.get_battery())
 
 # takeoff command and moving forward to other side of the room #
-tello.takeoff
+tello.takeoff(200)
 tello.move_forward(500)
 
 # this is the command when the drone is on the other side of the room. it will go forward, flip, turn and head back. #
