@@ -15,7 +15,7 @@ tello.move_forward(500)
 tello.flip_forward()
 sleep(.5)
 tello.rotate_counter_clockwise(90)
-tello.move_forward(200)
+tello.move_forward(315)
 sleep(.5)
 tello.rotate_counter_clockwise(90)
 
@@ -24,7 +24,7 @@ tello.rotate_counter_clockwise(90)
 tello.move_forward(500)
 sleep(.5)
 tello.rotate_counter_clockwise(90)
-tello.move_forward(200)
+tello.move_forward(315)
 
 # landing commands, with a backflip #
 
